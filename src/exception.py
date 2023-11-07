@@ -26,9 +26,12 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message
 
+'''
+case 1: 
 if __name__=="__main__":
     try:
         a=1/0
     except Exception as e:
         logging.info("Divided by Zero is not allowed.")
         raise CustomException(e,sys) 
+'''
